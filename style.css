@@ -7,6 +7,56 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%
 }
 
 /* Add styles here! */
+
+.intro-chunk{
+  padding-left: 20%;
+  padding-bottom: 50px;
+  height: 50%;
+}
+
+.intro-chunk > p:first-of-type{
+  max-width: 350px;
+}
+
+.intro-chunk > p:nth-of-type(2){
+  max-width: 300px;
+}
+
+strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+.title{
+  padding-top: 96px;
+}
+
+main{
+  border-top: .25rem solid hsl(0deg, 0%, 60%);
+  background-color:hsl(0deg, 0%, 30%);
+  height: 50%;
+}
+
+.card{
+  margin-top: 60px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 600px;
+  border-bottom: .5rem solid hsl(0deg, 0%, 60%);
+}
+
+.indented-heading{
+  display: inline-block;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: .5rem solid hsl(45deg, 100%, 40%);
+  margin-left: -8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 12px;
+}
+
